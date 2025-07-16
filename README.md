@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# MindMirror – Journal & Mood Analyzer
+## A beautiful, interactive mental wellness journal powered by React, Bootstrap 5, and Framer Motion.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Features
+📝 Write Daily Journal Entries
 
-## Available Scripts
+🎯 AI-like Mood Detection (based on text)
 
-In the project directory, you can run:
+📈 Mood Trend Visualization (with Recharts)
 
-### `npm start`
+🎨 Light / Dark Mode Toggle
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✨ Smooth Animations with Framer Motion
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📜 Persistent Journal History (using localStorage)
 
-### `npm test`
+🔍 Responsive & Minimal UI (Bootstrap 5)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
+Technology	Purpose
+React	Component-based architecture
+Bootstrap 5	Responsive and modern styling
+Framer Motion	Smooth animations
+Recharts	Mood trend visualization
+localStorage	Journal data persistence
 
-### `npm run build`
+mindmirror/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── JournalInput.jsx
+│   │   ├── MoodDisplay.jsx
+│   │   ├── MoodChart.jsx
+│   │   ├── Suggestions.jsx
+│   │   └── History.jsx
+│   ├── pages/
+│   │   └── Home.jsx
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+├── package.json
+└── README.md
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How It Works
+User writes a journal entry.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+On clicking "Analyze Mood", keywords are scanned (e.g. happy, sad, angry).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Mood is detected and:
 
-### `npm run eject`
+Displayed with emoji and message
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Suggestions shown (motivational tips)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Mood chart updated
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Entry saved to localStorage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+User can toggle between Light/Dark mode
 
-## Learn More
+Past entries shown in the History page.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🔧 Customization
+Modify mood keywords → JournalInput.jsx
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Add your own quotes/suggestions → Suggestions.jsx
 
-### Code Splitting
+Replace dummy chart data → MoodChart.jsx
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📈 Future Improvements
+ Export PDF of journal entries
 
-### Analyzing the Bundle Size
+ Speech-to-text for journaling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ Emoji lock screen / passcode
 
-### Making a Progressive Web App
+ Cloud-based journal syncing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ Mood-based theme colors
 
-### Advanced Configuration
+🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+📄 License
+MIT License. Feel free to fork, modify and share! 💙
 
-### Deployment
+🙌 Acknowledgements
+React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Bootstrap 5
 
-### `npm run build` fails to minify
+Framer Motion
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Recharts
+
+✨ Made with ❤️ by Rashmi Kumari
+
