@@ -86,6 +86,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 MIT License. Feel free to fork, modify and share! 💙
 
 🙌 Acknowledgements
+
 React
 
 Bootstrap 5
