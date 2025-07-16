@@ -17,12 +17,12 @@
 🔍 Responsive & Minimal UI (Bootstrap 5)
 
 ## Tech Stack
-Technology	Purpose
-React	Component-based architecture
-Bootstrap 5	Responsive and modern styling
-Framer Motion	Smooth animations
-Recharts	Mood trend visualization
-localStorage	Journal data persistence
+
+React - 	Component-based architecture
+Bootstrap 5 - 	Responsive and modern styling
+Framer Motion - 	Smooth animations
+Recharts - 	Mood trend visualization
+localStorage	 - Journal data persistence
 
 mindmirror/
 ├── public/
