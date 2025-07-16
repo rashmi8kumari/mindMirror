@@ -2,6 +2,7 @@
 ## A beautiful, interactive mental wellness journal powered by React, Bootstrap 5, and Framer Motion.
 
 🚀 Features
+
 📝 Write Daily Journal Entries
 
 🎯 AI-like Mood Detection (based on text)
@@ -19,9 +20,13 @@
 ## Tech Stack
 
 React - 	Component-based architecture
+
 Bootstrap 5 - 	Responsive and modern styling
+
 Framer Motion - 	Smooth animations
+
 Recharts - 	Mood trend visualization
+
 localStorage	 - Journal data persistence
 
 mindmirror/
@@ -43,6 +48,7 @@ mindmirror/
 └── README.md
 
 ## How It Works
+
 User writes a journal entry.
 
 On clicking "Analyze Mood", keywords are scanned (e.g. happy, sad, angry).
@@ -62,6 +68,7 @@ User can toggle between Light/Dark mode
 Past entries shown in the History page.
 
 🔧 Customization
+
 Modify mood keywords → JournalInput.jsx
 
 Add your own quotes/suggestions → Suggestions.jsx
@@ -69,6 +76,7 @@ Add your own quotes/suggestions → Suggestions.jsx
 Replace dummy chart data → MoodChart.jsx
 
 📈 Future Improvements
+
  Export PDF of journal entries
 
  Speech-to-text for journaling
@@ -80,9 +88,11 @@ Replace dummy chart data → MoodChart.jsx
  Mood-based theme colors
 
 🤝 Contributing
+
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 📄 License
+
 MIT License. Feel free to fork, modify and share! 💙
 
 🙌 Acknowledgements
