@@ -28,7 +28,7 @@ const JournalInput = ({ entry, setEntry, setMood }) => {
   };
 
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y:0 }} transition={{ duration:0.3, delay:0.1 }}>
       <textarea
         className="form-control mb-3"
         rows="6"
@@ -36,7 +36,8 @@ const JournalInput = ({ entry, setEntry, setMood }) => {
         value={entry}
         onChange={(e) => setEntry(e.target.value)}
       />
-      <button className="btn btn-primary mb-3" onClick={handleAnalyze}>Analyze Mood</button>
+      <motion.button   whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }} className="btn btn-dark px-4 py-2 rounded-pill" onClick={handleAnalyze}>Analyze Mood</motion.button>
       {message && <div className="alert alert-success">{message}</div>}
     </motion.div>
   );

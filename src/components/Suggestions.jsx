@@ -15,8 +15,9 @@ const Suggestions = ({ mood }) => {
   return (
     <motion.div
       className="card mb-4 p-3 bg-light"
-      initial={{ scale: 0.9, opacity: 0 }}
+      initial={{ scale: 0.95, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
+      transition={{ duration: 0.3 }}
     >
       <h5 className="mb-2">Suggestions for you</h5>
       <ul className="list-group">

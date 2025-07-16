@@ -20,8 +20,9 @@ const MoodDisplay = ({ mood }) => {
   return (
     <motion.div
       className="alert alert-info text-center"
-      initial={{ y: 50, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
+      initial={{ scale: 0.8, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
+      transition={{ type: 'spring', stiffness:120 }}
     >
       <h4>{moodEmoji[mood]} {mood}</h4>
       <p>{moodMessage[mood]}</p>
